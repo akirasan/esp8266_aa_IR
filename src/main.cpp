@@ -12,10 +12,7 @@
 #include <Adafruit_NeoPixel.h>
 
 // Configuración WiFi y MQTT server
-const char *ssid = "XXXXXXXXXXXXX";     // SSID de la conexión WiFi
-const char *password = "XXXXXXXX";      // Password conexión WiFi
-const char *mqtt_server = "XXXXXXX";    // Dirección IP del servidor MQTT
-const uint16_t mqtt_server_port = 1883; // Puerto de conexión al servidor
+#include "configuration.h" // Configurar tus datos de conexión
 
 #define topic_hola "casa/aire/habitacion"             // "Hola" al conectar al servidor MQTT
 #define topic_escenario "casa/aire/habitacion/estado" // Enviamos estado/escenario pregrabado
