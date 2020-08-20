@@ -12,7 +12,7 @@
 #include <Adafruit_NeoPixel.h>
 
 // Configuración WiFi y MQTT server
-#include "configuration.h" // Configurar tus datos de conexión
+#include "configuration.h" // Configura tus datos de conexión
 
 #define topic_hola "casa/aire/habitacion"             // "Hola" al conectar al servidor MQTT
 #define topic_escenario "casa/aire/habitacion/estado" // Enviamos estado/escenario pregrabado
