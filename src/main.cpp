@@ -11,7 +11,7 @@
 
 #include <Adafruit_NeoPixel.h>
 
-// Configuración WiFi y MQTT server
+// Configuración WiFi y servidor MQTT
 #include "configuration.h" // Configura tus datos de conexión
 
 #define topic_hola "casa/aire/habitacion"             // "Hola" al conectar al servidor MQTT
