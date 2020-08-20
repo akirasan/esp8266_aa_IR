@@ -200,5 +200,5 @@ void loop()
   client.loop(); // Por si hemos recibido algún mensaje de los suscritos
   led_RGB.clear();
 
-  // Aquí cualquier otra cosa...
+  // Aquí cualquier otra cosa que quieras hacer...
 }
