@@ -1,2 +1,0 @@
-kiki
-test
