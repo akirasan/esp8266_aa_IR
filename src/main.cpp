@@ -1,6 +1,6 @@
 // Dispositivo para enviar via infrarrojos códigos RAW
 // Capturados previsamente mediante IRrecvDumpV2.ino
-// @akirasan Agosto 2020
+// @akirasan agosto 2020
 
 #include <Arduino.h>
 #include <IRremoteESP8266.h>
