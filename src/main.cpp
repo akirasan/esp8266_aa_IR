@@ -168,7 +168,7 @@ void conectarMQTT()
   }
 }
 
-void setup()
+void setup() 
 {
   pinMode(PIN, OUTPUT);
   pinMode(PIN_LED_IR, OUTPUT);
